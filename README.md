@@ -1,3 +1,3 @@
-# Football API
+# Football Odds AI
 
-A system to create and track league data.
+A bot that crawls betting sites (based in Tanzania) and sends a notification when arbitrage opportunities arise.
