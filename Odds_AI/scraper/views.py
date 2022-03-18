@@ -12,7 +12,7 @@ def scrap(request):
     options.headless = True
     options.add_argument("--window-size=1920,1080")
 
-    driver = webdriver.Chrome(options=options)
+    driver = webdriver.Firefox(options=options)
 
 # Create your views here.
 
