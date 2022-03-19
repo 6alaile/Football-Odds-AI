@@ -3,6 +3,8 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render, redirect
 import os
 
+from django.views import View
+
 # Selenium
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -16,5 +18,7 @@ def scrap(request):
 
 # Create your views here.
 
-def view_name(request):
-    return render(request, 'scraper.html', {})
+class DefaultView(View):
+
+    def scraper_view(request):
+        return render(request, 'scraper.html', {})
