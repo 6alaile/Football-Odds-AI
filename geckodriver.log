@@ -5,3 +5,6 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:54063/devtools/browser/8d037f5b-b2cb-4e7d-9d11-1f42d1c3c202
 1647633936017	Marionette	INFO	Listening on port 54068
 1647633936324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1647674492143	Marionette	INFO	Stopped listening on port 54068
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 996: Error: Connection is not open.
